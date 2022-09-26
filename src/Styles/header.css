@@ -1,0 +1,31 @@
+.header {
+  display: grid;
+  grid-area: header;
+}
+.list-items {
+  display: flex;
+  list-style: none;
+  font-family: 'Playfair Display', serif;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:  solid rgb(181, 181, 181,0.8) 1px;
+  padding: 1rem;
+}
+.i2{
+font-weight: 700;
+font-size: 2rem;
+padding-bottom: 1rem;
+}
+.i1{
+  display: flex;
+  align-self: flex-start;
+  padding-left: 2rem;
+}
+.i3{
+display: flex;
+align-self: flex-start;
+padding-right: 2rem;
+}
+
+
+

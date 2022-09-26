@@ -1,0 +1,15 @@
+.main{
+ display: grid;
+ grid-area: main;
+  align-self: flex-start;
+}
+
+.header-main1{
+  padding-top: 1rem;
+   padding-bottom: 10px;
+  border-bottom:  solid rgb(181, 181, 181,0.8) 2px;
+}
+.footer-main1{
+  padding-bottom: 1rem;
+  border-bottom:  solid rgb(181, 181, 181,0.8) 2px;
+}

@@ -1,0 +1,20 @@
+.sidebar {
+  display: grid;
+  grid-area: sidebar;
+}
+.sidebar {
+  border-right:  solid rgb(181, 181, 181,0.8) 2px;
+  padding-right: 1rem;
+}
+
+.footer-main{
+  display: flex;
+  justify-content: flex-end;
+}
+h5{
+ padding-bottom: 2rem;
+}
+.footer-sidebar1{
+  padding-bottom: 1rem;
+  border-bottom: solid rgb(181, 181, 181,0.8) 2px;
+}

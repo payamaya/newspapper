@@ -1,0 +1,8 @@
+.navbar{
+ display: grid;
+ grid-area: navbar;
+}
+.navbar{
+ border-left:  solid rgb(181, 181, 181,0.8) 2px;
+  padding-left: 1rem;
+}
