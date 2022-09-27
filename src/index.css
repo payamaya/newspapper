@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media (max-width: 800px) {
+  body {
+    background-color: green;
+    color: antiquewhite;
+  }
+}
+@media (min-width: 600px) {
+  .section-navbar {
+    background-color: yellow;
+    color: red;
+  }
+}
+@media (min-width: 400px) {
+  .section-main {
+    background-color: yellow;
+    color: red;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -14,13 +32,13 @@ html {
 }
 body {
   font-family: 'Playfair Display', serif;
-  background-color: #fafafa;
+  /*   background-color: #fafafa; */
   font-size: 1.2rem;
   font-weight: 400;
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 100px 1fr;
   grid-template-rows: 1fr;
   grid-template-areas:
     'header header header header  '
@@ -32,9 +50,9 @@ body {
 }
 
 img {
-  display: flex;
+  max-width: 800px;
   width: 100%;
-  align-self: flex-start;
+  align-self: center;
   padding: 10px;
 }
 /*  */
@@ -61,4 +79,3 @@ footer {
   font-weight: 600;
   font-size: 1em;
 }
-

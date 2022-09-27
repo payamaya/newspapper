@@ -8,7 +8,7 @@ const Main = () => {
           <img src={newspapper} alt='bild' />
         </figure>
         <header className='header-main1'> True modern day Robin Hood</header>
-        <section className='section-main1'>
+        <section className='section-main'>
           Believe it or not I'm walking on air. I never thought I could feel so
           free. It's time to put on makeup. It's time to dress up right. It's
           time to raise the curtain on the Muppet Show tonight. Wouldn't you
@@ -21,7 +21,7 @@ const Main = () => {
           a prayer. Who could it be? Believe it or not its just me? Now were up
           in the big leagues getting' our turn at bat.
         </section>
-        <section className='section-main2'>
+        <section className='section-main'>
           It's time to play the music. It's time to light the lights. It's time
           to meet the Muppets on the Muppet Show tonight. Were gonna do it. Give
           us any chance well take it. Give us any rule we'll break it. We're
@@ -34,7 +34,7 @@ const Main = () => {
       </article>
       <article className='article-main2'>
         <header className='header-main2'>These Happy Days</header>
-        <section className='section-main3'>
+        <section className='section-main'>
           Then one day he was shootin' at some food and up through the ground
           came a bubblin' crude. Oil that is. Well the first thing you know ol'
           Jeds a millionaire. Kinfolk said Jed move away from there.
@@ -43,7 +43,7 @@ const Main = () => {
           beautiful day. Since we're together As long as we live its you and me
           baby. There ain't nothin' wrong with that.
         </section>
-        <section className='section-main4'>
+        <section className='section-main'>
           Just two good ol' boys Never meanin' no harm. Beats all you've ever
           saw been in trouble with the law since the day they was born. We're
           gonna do it. On your mark get set and go now. Got a dream and we just
